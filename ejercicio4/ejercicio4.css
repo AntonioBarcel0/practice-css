@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(254, 255, 216);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 2px solid #b5aaaa;
+}
+
+.box1 {
+    background-color: rgb(228, 242, 255);
+    order: 2;
+    flex-grow: 1;
+    
+}
+
+.box2 {
+    background-color: rgb(228, 255, 237);
+    order: 1;
+    flex-grow: 2;
+}
+
+.box3 {
+    background-color: rgb(255, 228, 235);
+    order: 3;
+    flex-grow: 1;
+    
+}

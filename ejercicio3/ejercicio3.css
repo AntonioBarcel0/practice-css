@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid #ccc;
+    background-color: blanchedalmond;
+    gap: 10px;
+    height: 300px;
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    color: teal;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,79 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width:1200px){
+    .container{
+        width: 70%;
+    }
+}
+
+@media (max-width:1199px) and (min-width: 760px){
+    .container{
+        
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        
+    }
+}
+
+.container {
+    width: 80%; /*800px de ancho*/
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid rgb(178, 129, 129);
+    background-color: rgb(167, 159, 127);
+    margin-top: 8%;
+    color: rgba(30, 30, 75, 0.862);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.rem {
+    width: 10rem; /* 10 * 16px = 160px depende del tamaño de fuente raiz (html o body)*/
+    height: 5rem; /* 80px*/
+    background-color: rgb(149, 95, 95);
+    font-size: 1.5rem;
+}
+
+.em {
+    font-size: 20px;
+    width: 10em; /* 10 * 20px = 200px*/
+    height: 5em;
+    background-color: rgb(133, 112, 153);
+}
+
+.percentage{
+    background-color: rgb(101, 130, 154);
+    width: 50%;
+    height: 20%;
+    font-size: 1.7rem;
+}
+
+.vh {
+    background-color: rgba(238, 238, 201, 0.747);
+    height: 10vh;
+    width: 50vh;
+}
+
+.vw {
+    background-color: rgba(49, 162, 96, 0.715);
+    width: 50vw;
+    height: 10vh;
+}
